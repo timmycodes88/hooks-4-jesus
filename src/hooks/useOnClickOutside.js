@@ -25,7 +25,7 @@ export default function useOnClickOutside(outsideRef, callback) {
     };
   }, [outsideRef, callback]);
 
-  //Dont actually need to reutne anythinf for this hook
+  //Nothing to return for this hook
 }
 
 //may be kinda hard to see this but the callback is actually "changing" on every render
